@@ -1,4 +1,57 @@
+/.idea/
+/.ensime_cache/
+/.lsp/
+/.cache/
+/.cpcache/
+/.gradle/
+/.shadow-cljs/
+/.bloop/
+/.cider-repl-history
+/.clj-kondo/.cache/
+/.cljs_node_repl_history
+/.hg/
+/.hgignore
+/checkouts/
+/classes/
+/compliment/
+/coverage/
+/dev-resources/
+/docs/.vitepress/cache/
+/docs/.vitepress/dist/
+/node_modules/
+/pom.xml
+/private/
+/resources/public/js/compiled/
+/target/
+/test-report/
+/tags
+*~
+*.jar
+*.DS_Store
+*.class
+*.dev.clj*
+*.nb
+*.orig
+*.swp
+*vim*.tmp
+
+# Clojure CLI specific
+.cpcache/
+.tool-versions
+
+# Maven specific
 pom.xml
+pom.xml.asc
+
+# IntelliJ specific
+*.iml
+*.ipr
+*.iws
+out/
+
+# Emacs specific
+*#
+.#*pom.xml
 pom.xml.asc
 *.jar
 *.class
